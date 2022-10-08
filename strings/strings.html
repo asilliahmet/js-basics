@@ -1,16 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Js-Basics</title>
-  <script src="./script.js" defer></script>
-  <link rel="stylesheet" href="./navbar-style.css">
+  <title>Strings</title>
   <style>* {margin: 0;padding: 0;font-family: monospace;}</style>
+  <link rel="stylesheet" href="../navbar-style.css">
+  <link rel="stylesheet" href="./strings.css">
+  <script src="/strings/strings.js" defer></script>
 </head>
-
 <body>
   <ul class="navbar">
     <li class="lh"><a href="https://github.com/asilliahmet">@asilliahmet</a></li>
@@ -19,10 +18,14 @@
     <li><a href="#">Empty Link</a></li>
     <li><a href="#">Empty Link</a></li>
   </ul>
-  <span>Basic javascript projects</span>
-  <hr style="margin: 10px 0px;">
-  <button>Start machine</button>
-  <p style="display: inline;">Machine is offline</p>
+  <div class="content">
+    <p id="output">output</p>
+    <input id="instr">
+    <div class="row">
+      <button onclick="preadd()"><</button>
+      <input id="insstr">
+      <button onclick="postadd()">></button>
+    </div>
+  </div>
 </body>
-
 </html>

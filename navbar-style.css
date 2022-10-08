@@ -1,0 +1,32 @@
+.navbar {
+  background-color: black;
+  display: flex;
+  gap: 1em;
+  padding: 0px 3vw;
+  align-items: stretch;
+  margin-bottom: 30px;
+}
+
+.navbar li {
+  display: flex;
+}
+
+.navbar li:nth-child(2) {
+  margin-left: auto;
+}
+
+.navbar a {
+  padding: 10px 3px;
+  color: #20c20e;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.navbar .lh {
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  background-color: #20c20e;
+  color: black;
+}
