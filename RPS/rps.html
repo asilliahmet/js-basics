@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rock-Paper-Scissors!</title>
+  <link rel="stylesheet" href="../navbar-style.css">
+  <link rel="stylesheet" href="./rps.css">
+  <script src="./rps.js" defer></script>
+  <style>* {margin: 0;padding: 0;font-family: monospace;}</style>
+</head>
+<body>
+  <ul class="navbar">
+    <li class="lh"><a href="https://github.com/asilliahmet">@asilliahmet</a></li>
+    <li><a href="../index.html">Index</a></li>
+    <li><a href="../strings/strings.html">Strings</a></li>
+    <li><a href="./rps.html">RPS</a></li>
+    <li><a href="#">Empty Link</a></li>
+  </ul>
+  <div class="game">
+    <div class="choiceButtons">
+      <button onclick="rock()">Rock</button>
+      <button onclick="paper()">Paper</button>
+      <button onclick="scissors()">Scissors</button>
+    </div>
+    <button id="play" disabled="disabled" onclick="play()">Are you sure?</button>
+    <p id="info">Computer is waiting on your turn...</p>
+    <button id="compbutton" disabled="disabled" onclick="nextround()">Computer</button>
+    <ul id="games">
+      <li>1</li>
+      <li>2</li>
+      <li>3</li>
+      <li>4</li>
+      <li>5</li>
+    </ul>
+  </div>
+</body>
+</html>

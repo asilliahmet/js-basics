@@ -1,0 +1,95 @@
+.game {
+  width: 350px;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 5vh;
+  padding-top: 20vh;
+}
+
+.choiceButtons {
+  display: flex;
+  gap: 15px;
+}
+
+.choiceButtons button{
+  flex: 1 1 0;
+}
+
+.choiceButtons button, #play{
+  padding: 5px;
+  border: 2px solid #08519c;
+  background-color: #bdd7e7;
+  border-radius: 7px;
+  color: black;
+}
+
+.choiceButtons button:active, #play:active{
+  padding: 4px 4px;
+  margin: 1px 1px;
+  border: 2px solid #08519c;
+  background-color: #6baed6;
+  border-radius: 7px;
+  color: black;
+}
+
+.choiceButtons button:disabled, #play:disabled{
+  padding: 5px;
+  border: 2px solid #08519c;
+  background-color: #eff3ff;
+  border-radius: 7px;
+  color: #cccccc;
+}
+
+#info {
+  margin: 5vh 0px;
+  text-align: center;
+  border: 2px solid #252525;
+  background-color: #cccccc;
+  padding: 7px;
+  border-radius: 7px;
+}
+
+#compbutton {
+  padding: 5px;
+  border: 2px solid #54278f;
+  background-color: #cbc9e2;
+  border-radius: 7px;
+  color: black;
+}
+
+#compbutton:active{
+  padding: 4px 4px;
+  margin: 1px 1px;
+  border: 2px solid #54278f;
+  background-color: #9e9ac8;
+  border-radius: 7px;
+  color: black;
+}
+
+#compbutton:disabled {
+  padding: 5px;
+  border: 2px solid #54278f;
+  background-color: #f2f0f7;
+  border-radius: 7px;
+  color: black;
+}
+
+#games {
+  margin-top: 10px;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+#games li {
+  border: 2px solid #252525;
+  background-color: #cccccc;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 27px;
+  border-radius: 6px;
+}
