@@ -81,6 +81,7 @@ function nextround() {
   for (let x of choiceButtons){
     x.disabled = false;
   }
+  info.innerHTML = `Computer is waiting on your turn...`;
 }
 
 function gameover(aichoice) {
