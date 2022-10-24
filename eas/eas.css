@@ -2,12 +2,15 @@
   display: flex;
   flex-wrap: wrap;
   border: 2px solid red;
-  width: 80vw;
+  width: 46vw;
   margin: 0px auto;
 }
 
 .pixel {
   display: border-box;
-  width: 8vw;
-  height: 8vw;
+}
+
+input {
+  margin-left: 27vw;
+  margin-bottom: 20px;
 }
