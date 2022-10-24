@@ -1,0 +1,13 @@
+.eas {
+  display: flex;
+  flex-wrap: wrap;
+  border: 2px solid red;
+  width: 80vw;
+  margin: 0px auto;
+}
+
+.pixel {
+  display: border-box;
+  width: 8vw;
+  height: 8vw;
+}
